@@ -9,7 +9,10 @@
 </head>
 <body>
     <div class="calc">
-    <p class="result">112345.32321</p>
+        <div class="display-container">
+            <div class="superscript" id="mini-display"></div>
+            <p class="result"></p>
+        </div>
     <div class="div-buttons">
         <button class="numButton" id="btn7">7</button>
         <button class="numButton" id="btn8">8</button>
@@ -23,9 +26,9 @@
         <button class="numButton" id="btn2">2</button>
         <button class="numButton" id="btn3">3</button>
         <button class="operator">*</button>
-        <button class="operator">C</button>
+        <button id="clear-btn">C</button>
         <button class="numButton" id="btn0">0</button>
-        <button class="operator">=</button>
+        <button id="equals">=</button>
         <button class="operator">/</button>
     </div>
     </div>
